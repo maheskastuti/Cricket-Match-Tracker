@@ -1,0 +1,83 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#036666;
+
+}
+img{
+    height: 6rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#036666;
+    color:wheat;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#036666;
+    height: 50px;
+    width: 1520px;
+    i{
+        font-size: x-large;
+        color: whitesmoke;
+    }
+    a{
+        text-decoration: none;
+        color:wheat ;
+        font-size:x-large;
+        font-weight: 1000;
+    }
+    
+}
+#matches{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+   color: #bc4b51;
+   text-align: left;
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+fieldset{
+    display: inline;
+    /* legend{
+        #team{
+            justify-content: center;
+            align-items: center;
+        }
+    } */
+    img{
+        vertical-align: middle;
+    }
+}
+
+footer{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color:#036666;
+    height: 50px;
+    width: 1520px;
+    margin-top: 500px;
+    color: wheat;
+    #information{
+        margin-left: 600px;
+        margin-top: 10px;
+    }
+    #links{
+        margin-top: 5px;
+        color: whitesmoke;
+        a{
+            color:coral;
+        }
+      
+    }
