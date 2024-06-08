@@ -1,5 +1,6 @@
 *{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background-color: rgba(161, 201, 214, 0.662); */
     
 }
 #heading{
@@ -43,9 +44,12 @@ nav{
     font-size: xx-large;
     font-weight: bold;
    color: #bc4b51;
-   text-align: left;
+   /* text-align: left; */
    text-decoration: underline;
    text-transform: capitalize;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 fieldset{
     display: inline;
@@ -81,3 +85,9 @@ footer{
         }
       
     }
+
+    /* #live{
+        display: flex;
+        justify-content: space-evenly;
+    } */
+    
